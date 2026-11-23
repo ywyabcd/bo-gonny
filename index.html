@@ -1,4 +1,4 @@
-<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Bò Goony · Studio Manager (bản thử)</title>
+<!doctype html><html lang="vi"><head><script>try{var t=localStorage.getItem('bg_theme');if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.dataset.theme=t}catch(e){}</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Bò Goony · Studio Manager (bản thử)</title>
 <style>
 :root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#f7f8f5;--paper:#fff;--ink:#263c35;--muted:#798b81;--sage:#527a67;--light:#eaf3ed;--border:#e3ebe4;--peach:#fff0e9;--red:#b24e49}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px system-ui,-apple-system,'Segoe UI',sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer}button:disabled{opacity:.45;cursor:not-allowed}.app{display:flex;min-height:100vh}.sidebar{width:245px;flex-shrink:0;background:#fff;border-right:1px solid var(--border);padding:23px 13px;position:sticky;top:0;height:100vh;display:flex;flex-direction:column;overflow:auto}.logo{display:flex;align-items:center;gap:10px;padding:3px 9px 24px}.logo img{width:48px;height:48px;background:var(--light);border-radius:15px}.logo strong{font-size:21px}.logo small{display:block;color:var(--muted);font-size:10px;letter-spacing:1px}.nav{display:grid;gap:4px}.nav button{text-align:left;background:transparent;border:0;border-radius:11px;padding:12px 13px;color:#657d70;font-weight:650}.nav button.on,.nav button:hover{background:var(--light);color:#315b47}.foot{margin-top:auto;background:#f8f3e9;border-radius:13px;padding:13px;color:#718074;font-size:12px;line-height:1.6}.main{flex:1;min-width:0;padding:28px clamp(15px,3.5vw,55px)}.top{display:flex;align-items:center;justify-content:space-between;gap:15px}.eyebrow{font-size:12px;color:var(--muted)}h1{font-size:32px;letter-spacing:-.8px;margin:6px 0 4px}h2{font-size:20px;margin:0 0 15px}h3{font-size:15px}.muted{color:var(--muted)}.pill,.tag{display:inline-block;background:var(--light);color:#48725b;padding:7px 11px;border-radius:20px;font-size:12px;font-weight:700}.tag.warn{background:#fff0d8;color:#956522}.tag.bad{background:#fde9e6;color:#a34b46}.tag.n{background:#dcecff;color:#1b5fb0}.tag.pu{background:#ece3fb;color:#6a3fb0}.tag.ok{background:#cdf0d8;color:#1c7a3c}.tag.or{background:#ffdcc2;color:#b24a0e}.tag.x{background:#e4e6e8;color:#5b646d}.tag.pk{background:#fddcec;color:#b02a6c}.tag.tl{background:#cdeeeb;color:#0f6d67}.rw.clk{cursor:pointer}.hero{background:linear-gradient(110deg,#e7f1e9,#fcebe7);border-radius:21px;padding:24px;margin:22px 0}.hero strong{font-size:21px}.hero p{margin:7px 0 0;color:#698073}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:20px 0}.card,.panel{background:white;border:1px solid var(--border);border-radius:18px;padding:19px}.card small{color:var(--muted)}.card strong{display:block;font-size:25px;margin:10px 0 4px}.panel{margin:16px 0}.panelhead,.row,.actions{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}.actions{justify-content:flex-start;margin:17px 0}.btn{border:0;border-radius:11px;padding:10px 14px;font-weight:700;background:var(--light);color:#42664e}.btn.primary{background:var(--sage);color:#fff}.btn.danger{background:#fde9e6;color:var(--red)}.btn:hover{filter:brightness(.96)}.table{overflow:auto}table{border-collapse:collapse;width:100%;min-width:700px;text-align:left}th,td{padding:12px 10px;border-bottom:1px solid #eef1ed;vertical-align:middle;font-size:13px}th{color:#829287;font-size:11px;text-transform:uppercase;letter-spacing:.5px}tr:last-child td{border:0}.link{background:none;border:0;color:#3f785c;text-decoration:underline;text-underline-offset:3px;padding:0;font-weight:700}.hint{background:#f6f7f1;border-radius:12px;padding:13px 15px;color:#6d8073;line-height:1.6;margin:13px 0}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.tabs button{border:1px solid var(--border);background:white;border-radius:10px;padding:9px 13px;color:#6c8173}.tabs button.on{background:var(--sage);color:white}.overlay{position:fixed;inset:0;background:#142e257a;z-index:10;display:grid;place-items:center;padding:12px}.modal{width:min(870px,100%);max-height:94vh;overflow:auto;background:white;border-radius:22px;padding:25px;box-shadow:0 25px 80px #162e2630}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin:15px 0}.field{display:flex;flex-direction:column;gap:6px;font-weight:650;font-size:12px;color:#5c7163}.field input,.field select,.field textarea{width:100%;border:1px solid #dce7de;background:#fcfdfb;border-radius:10px;padding:11px;color:var(--ink);font-weight:400}.field.full{grid-column:1/-1}.formactions{display:flex;justify-content:flex-end;gap:8px;margin-top:20px}.itemrow{display:grid;grid-template-columns:minmax(160px,2fr) minmax(75px,1fr) minmax(100px,1fr) 42px;gap:8px;margin:8px 0;align-items:end}.itemrow.five{grid-template-columns:minmax(145px,2fr) repeat(3,minmax(70px,1fr)) 42px}.itemrow select,.itemrow input{width:100%;border:1px solid #dce7de;border-radius:10px;padding:10px;background:white}.itemrow button{height:40px}.mini{font-size:12px;color:var(--muted)}.split{display:grid;grid-template-columns:1.3fr 1fr;gap:16px}.picture{width:65px;height:65px;border-radius:16px;background:#f1f5ee;display:inline-grid;place-items:center;font-size:31px;overflow:hidden}.picture img{width:100%;height:100%;object-fit:cover}.detailhead{display:flex;gap:16px;align-items:center}.detailhead .picture{width:105px;height:105px;font-size:54px}.alert{background:#fff0dc;border-radius:12px;padding:13px;margin:12px 0;color:#88612d}.smallinput{width:95px;border:1px solid var(--border);border-radius:8px;padding:8px}.bar{height:9px;background:#eef1ed;border-radius:20px;overflow:hidden}.bar span{display:block;height:100%;background:#8cbaa0}.empty{padding:25px;text-align:center;color:var(--muted)}@media(max-width:1000px){.grid{grid-template-columns:repeat(2,1fr)}.sidebar{width:205px}.split{grid-template-columns:1fr}}@media(max-width:700px){.app{display:block}.sidebar{position:relative;height:auto;width:100%;padding:12px}.logo{padding-bottom:8px}.nav{display:flex;overflow:auto}.nav button{white-space:nowrap}.foot{display:none}.main{padding:18px 12px}.grid{grid-template-columns:repeat(2,1fr)}.formgrid{grid-template-columns:1fr}.itemrow,.itemrow.five{grid-template-columns:1fr 1fr}.modal{padding:16px}.top .pill{display:none}}
 
@@ -127,7 +127,88 @@ td .btn+.btn{margin-left:8px}
 #lg{position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;background:radial-gradient(900px 420px at 105% -5%,#fcebe7 0,transparent 62%),radial-gradient(820px 460px at -8% 108%,#e3f1e7 0,transparent 62%),var(--bg)}
 #lg form{width:min(380px,92vw);margin:0}#lg.off{display:none}
 .sync{font-size:12px;color:var(--muted)}.sync.bad{color:#a34b46;font-weight:700}
-</style></head><body><div class="app"><div id="lg"><form id="lgf" class="panel"><div style="text-align:center"><span class="bo s64"></span><h2 style="margin:8px 0 2px">Bò Goony Studio</h2><p class="muted" style="margin:0 0 6px">Đăng nhập để vào kho dữ liệu</p></div><label class="field">Email<input id="lg_e" type="email" autocomplete="username" required></label><label class="field">Mật khẩu<input id="lg_p" type="password" autocomplete="current-password" required></label><div id="lg_m" class="hint" style="display:none"></div><button class="btn primary" type="submit" id="lg_b" style="width:100%;margin-top:12px">Đăng nhập</button></form></div><aside class="sidebar"><div class="logo"><span class="bo s48"></span><div><strong>Bò Goony</strong><small>STUDIO MANAGER</small></div></div><div id="nav" class="nav"></div><div class="foot"><span class="bo2"></span>🐾 Bò canh tiệm nè!<br><span id="sync" class="sync">☁️ Đang kết nối…</span><br><a href="#" id="lgo" class="link" style="font-size:12px">Đăng xuất</a></div></aside><main class="main"><div class="top"><input id="gs" class="search" type="search" placeholder="🔎 Tìm nguyên liệu, sản phẩm…" aria-label="Tìm kiếm"><button class="btn primary" data-p="sale" data-of="1">🛍️ Tạo đơn nhanh</button></div><h1 id="title"></h1><div id="msg"></div><div id="view"></div></main></div>
+
+/* ===== dark mode (tự sinh từ bảng màu sáng) ===== */
+html[data-theme=dark]{color-scheme:dark;--bg:#111a15;--paper:#18231e;--ink:#e4eee8;--muted:#8da297;--sage:#5f9f80;--light:#223229;--border:#2a3b32;--peach:#2b211c;--red:#f4a8a2}
+html[data-theme=dark] .overlay{background:#000a}
+html[data-theme=dark] .grid>.card::before{opacity:.9}
+html[data-theme=dark] .panel,html[data-theme=dark] .card{box-shadow:none}
+html[data-theme=dark] .hello::after{opacity:.35}
+html[data-theme=dark] .btn.primary{color:#fff}
+html[data-theme=dark] .btn:hover{filter:brightness(1.12)}
+html[data-theme=dark] th{color:#8da297}
+html[data-theme=dark] ::placeholder{color:#6f8478}
+.btn.thm{min-width:40px;padding:0 10px;font-size:16px;flex:none}
+html[data-theme=dark] .sidebar{background:#18231e}
+html[data-theme=dark] .nav button{color:#9bb0a4}
+html[data-theme=dark] .nav button.on,html[data-theme=dark] .nav button:hover{color:#a9d6bd}
+html[data-theme=dark] .foot{background:#2c2a1f;color:#9bb0a4}
+html[data-theme=dark] .pill,html[data-theme=dark] .tag{color:#a9d6bd}
+html[data-theme=dark] .tag.warn{background:#3a2f19;color:#f0c985}
+html[data-theme=dark] .tag.bad{background:#3a2321;color:#f4a8a2}
+html[data-theme=dark] .tag.n{background:#1d2f44;color:#8dc0f5}
+html[data-theme=dark] .tag.pu{background:#2e2543;color:#c4a9f4}
+html[data-theme=dark] .tag.ok{background:#1f3b2b;color:#7fdc9e}
+html[data-theme=dark] .tag.or{background:#43291a;color:#f6a977}
+html[data-theme=dark] .tag.x{background:#2d3331;color:#bcc3bf}
+html[data-theme=dark] .tag.pk{background:#43202f;color:#f69ac5}
+html[data-theme=dark] .tag.tl{background:#1a3a37;color:#72d9d0}
+html[data-theme=dark] .hero{background:linear-gradient(110deg,#1f3027,#33251f)}
+html[data-theme=dark] .hero p{color:#9bb0a4}
+html[data-theme=dark] .card,html[data-theme=dark] .panel{background:#18231e}
+html[data-theme=dark] .btn{color:#a9d6bd}
+html[data-theme=dark] .btn.danger{background:#3a2321}
+html[data-theme=dark] th,html[data-theme=dark] td{border-bottom:1px solid #2a3a32}
+html[data-theme=dark] th{color:#8da297}
+html[data-theme=dark] .link{color:#8fd0ad}
+html[data-theme=dark] .hint{background:#1e2822;color:#9bb0a4}
+html[data-theme=dark] .tabs button{background:#18231e;color:#9bb0a4}
+html[data-theme=dark] .modal{background:#18231e}
+html[data-theme=dark] .field{color:#9bb0a4}
+html[data-theme=dark] .field input,html[data-theme=dark] .field select,html[data-theme=dark] .field textarea{border:1px solid #2f4137;background:#131c18}
+html[data-theme=dark] .itemrow select,html[data-theme=dark] .itemrow input{border:1px solid #2f4137;background:#18231e}
+html[data-theme=dark] .picture{background:#22302a}
+html[data-theme=dark] .alert{background:#3a2f19;color:#f0c98a}
+html[data-theme=dark] .bar{background:#2a3a32}
+html[data-theme=dark] .f{color:#9bb0a4}
+html[data-theme=dark] .f input,html[data-theme=dark] .f select,html[data-theme=dark] .f textarea{border:1px solid #2f4137;background:#131c18}
+html[data-theme=dark] .search{border:1px solid #2f4137;background:#18231e}
+html[data-theme=dark] .hello{background:linear-gradient(110deg,#1f3027,#33251f)}
+html[data-theme=dark] .hello p{color:#9bb0a4}
+html[data-theme=dark] .bo{background-color:#223229}
+html[data-theme=dark] .th{background:#223229}
+html[data-theme=dark] .in{border:1px solid #2f4137;background:#131c18}
+html[data-theme=dark] .alert.ok{background:#223229;color:#a9d6bd;border-color:#3a4f44}
+html[data-theme=dark] .tag.b{background:#1d2c3c;color:#9dc2ee}
+html[data-theme=dark] .tag.x{background:#2d3331;color:#bcc3bf}
+html[data-theme=dark] tbody tr:hover td{background:#1d2b24}
+html[data-theme=dark] .bub{background:#18231e;border:1px solid #3a4f44;color:#e4eee8}
+@media(max-width:760px){html[data-theme=dark] tbody tr{background:#18231e}}
+html[data-theme=dark] /* màu và chi tiết thêm,html[data-theme=dark] hợp tông xanh sage + hồng đào + kem */
+body{background:radial-gradient(900px 420px at 105% -5%,#33251f 0,transparent 62%),radial-gradient(820px 460px at -8% 108%,#1d2c24 0,transparent 62%),var(--bg)}
+html[data-theme=dark] .sidebar{background:linear-gradient(180deg,#18231e 0%,#16211c 100%)}
+html[data-theme=dark] .nav button.on{background:linear-gradient(90deg,#27402f,#223229)}
+html[data-theme=dark] .foot{background:linear-gradient(135deg,#2c2a1f,#33251f);border:1px dashed #4a3a30}
+html[data-theme=dark] .grid>.card:nth-child(4n+1){background:linear-gradient(180deg,#1d2e25,#18231e 70%)}
+html[data-theme=dark] .grid>.card:nth-child(4n+2){background:linear-gradient(180deg,#2e211b,#18231e 70%)}
+html[data-theme=dark] .grid>.card:nth-child(4n+3){background:linear-gradient(180deg,#1b2b38,#18231e 70%)}
+html[data-theme=dark] .grid>.card:nth-child(4n+4){background:linear-gradient(180deg,#2d2817,#18231e 70%)}
+html[data-theme=dark] .panel.fm{background:linear-gradient(135deg,#18231e,#1a2923)}
+html[data-theme=dark] th{background:#1d2b24}
+html[data-theme=dark] tbody tr:nth-child(even) td{background:#1b2822}
+html[data-theme=dark] tbody tr:hover td{background:#223229}
+html[data-theme=dark] .rw.clk:hover{background:#2e211b}
+html[data-theme=dark] .grid.gx>.card.c-rev{background:linear-gradient(180deg,#1d2e25,#18231e 72%)}
+html[data-theme=dark] .grid.gx>.card.c-pf{background:linear-gradient(180deg,#2f2918,#18231e 72%)}
+html[data-theme=dark] .grid.gx>.card.c-cost{background:linear-gradient(180deg,#2f221c,#18231e 72%)}
+html[data-theme=dark] .grid.gx>.card.c-cash{background:linear-gradient(180deg,#1b2b38,#18231e 72%)}
+html[data-theme=dark] /* v18 đăng nhập + đồng bộ */
+#lg{background:radial-gradient(900px 420px at 105% -5%,#33251f 0,transparent 62%),radial-gradient(820px 460px at -8% 108%,#1d2c24 0,transparent 62%),var(--bg)}
+html[data-theme=dark] .sync.bad{color:#f4a8a2}
+html[data-theme=dark] .btn{background:#26382f;color:#d4e8dc}
+html[data-theme=dark] .btn.danger{background:#3a2321;color:#f4a8a2}
+html[data-theme=dark] .btn.primary{background:var(--sage);color:#fff}
+</style></head><body><div class="app"><div id="lg"><form id="lgf" class="panel"><div style="text-align:center"><span class="bo s64"></span><h2 style="margin:8px 0 2px">Bò Goony Studio</h2><p class="muted" style="margin:0 0 6px">Đăng nhập để vào kho dữ liệu</p></div><label class="field">Email<input id="lg_e" type="email" autocomplete="username" required></label><label class="field">Mật khẩu<input id="lg_p" type="password" autocomplete="current-password" required></label><div id="lg_m" class="hint" style="display:none"></div><button class="btn primary" type="submit" id="lg_b" style="width:100%;margin-top:12px">Đăng nhập</button></form></div><aside class="sidebar"><div class="logo"><span class="bo s48"></span><div><strong>Bò Goony</strong><small>STUDIO MANAGER</small></div></div><div id="nav" class="nav"></div><div class="foot"><span class="bo2"></span>🐾 Bò canh tiệm nè!<br><span id="sync" class="sync">☁️ Đang kết nối…</span><br><a href="#" id="lgo" class="link" style="font-size:12px">Đăng xuất</a></div></aside><main class="main"><div class="top"><input id="gs" class="search" type="search" placeholder="🔎 Tìm nguyên liệu, sản phẩm…" aria-label="Tìm kiếm"><button class="btn primary" data-p="sale" data-of="1">🛍️ Tạo đơn nhanh</button><button class="btn thm" id="thm" type="button" aria-label="Đổi giao diện sáng tối" title="Đổi giao diện sáng / tối">🌙</button></div><h1 id="title"></h1><div id="msg"></div><div id="view"></div></main></div>
 <script>
 const $=s=>document.querySelector(s),v=i=>$('#'+i).value,n=i=>parseQ(v(i)),sum=(a,f)=>a.reduce((x,y)=>x+f(y),0),now=()=>{const d=new Date(),z=x=>String(x).padStart(2,'0');return z(d.getDate())+'/'+z(d.getMonth()+1)+'/'+d.getFullYear()+' '+z(d.getHours())+':'+z(d.getMinutes())+':'+z(d.getSeconds())};
 const f=x=>(+x||0).toLocaleString('vi-VN',{maximumFractionDigits:3}),m=x=>Math.round(x||0).toLocaleString('vi-VN')+'đ';
@@ -372,5 +453,9 @@ $('#lgo').addEventListener('click',e=>{e.preventDefault();lsSet(null);READY=fals
 setInterval(cloudSave,SB.save);setInterval(cloudPoll,SB.poll);
 document.addEventListener('visibilitychange',()=>{if(document.hidden)cloudSave()});
 cloudInit();
+</script>
+
+<script>
+(function(){const r=document.documentElement,b=document.getElementById('thm');const sync=()=>{b.textContent=r.dataset.theme=='dark'?'☀️':'🌙';b.title=r.dataset.theme=='dark'?'Chuyển sang giao diện sáng':'Chuyển sang giao diện tối'};sync();b.addEventListener('click',()=>{const t=r.dataset.theme=='dark'?'light':'dark';r.dataset.theme=t;try{localStorage.setItem('bg_theme',t)}catch(e){}sync()})})();
 </script>
 </body></html>
